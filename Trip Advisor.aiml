@@ -1,0 +1,1030 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+
+
+
+
+
+
+<aiml>
+<!--author: suharika-->
+<!--licence: Standard-->
+<!--created with: GaitoBot AIML Editor V2.10.0.42867-->
+<category>
+	<pattern>HI</pattern>
+	<template>
+		<random>
+			<li>Hello! </li>
+			<li>Hey Hi! </li>
+			<li>Hola! </li>
+			<li>Good to see you!</li>
+		</random> <img />I am Trip Advisor. How can I help you ?</template>
+</category>
+<category>
+	<pattern>* HI</pattern>
+	<template><srai>Hi</srai></template>
+</category>
+<category>
+	<pattern>HI *</pattern>
+	<template><srai>Hi</srai></template>
+</category>
+<category>
+	<pattern>* HI *</pattern>
+	<template><srai>Hi</srai></template>
+</category>
+<category>
+	<pattern>* HELLO</pattern>
+	<template><srai>Hi</srai></template>
+</category>
+<category>
+	<pattern>* HELLO *</pattern>
+	<template><srai>Hi</srai></template>
+</category>
+<category>
+	<pattern>HELLO</pattern>
+	<template><srai>Hi</srai></template>
+</category>
+<category>
+	<pattern>HELLO *</pattern>
+	<template><srai>Hi</srai></template>
+</category>
+<category>
+	<pattern>HOLA</pattern>
+	<template><srai>Hi</srai></template>
+</category>
+<category>
+	<pattern>* HOLA</pattern>
+	<template><srai>Hi</srai></template>
+</category>
+<category>
+	<pattern>HOLA *</pattern>
+	<template><srai>Hi</srai></template>
+</category>
+<category>
+	<pattern>* HOLA *</pattern>
+	<template><srai>Hi</srai></template>
+</category>
+<category>
+	<pattern>HEY</pattern>
+	<template><srai>Hi</srai></template>
+</category>
+<category>
+	<pattern>* HEY</pattern>
+	<template><srai>Hi</srai></template>
+</category>
+<category>
+	<pattern>HEY *</pattern>
+	<template><srai>Hi</srai></template>
+</category>
+<category>
+	<pattern>* HEY *</pattern>
+	<template><srai>Hi</srai></template>
+</category>
+<category>
+	<pattern>CAR</pattern>
+	<template>You can book your CAR over here.<br /><a href="https://www.olacabs.com/" target="_blank">OLA</a><br /><a href="https://www.uber.com/in/en/drive/vehicle-solutions/" target="_blank">UBER</a><br /><a target="_blank" href="https://www.savaari.com/nellore/car-rental">SAVAARI</a></template>
+</category>
+<category>
+	<pattern>* CAR</pattern>
+	<template><srai>CAR</srai></template>
+</category>
+<category>
+	<pattern>CAR *</pattern>
+	<template><srai>CAR</srai></template>
+</category>
+<category>
+	<pattern>* CAR *</pattern>
+	<template><srai>CAR</srai></template>
+</category>
+<category>
+	<pattern>TAXI</pattern>
+	<template>You can book your TAXI over here.<br /><a href="https://www.olacabs.com/" target="_blank">OLA</a><br /><a href="https://www.uber.com/in/en/drive/vehicle-solutions/" target="_blank">UBER</a><br /><a target="_blank" href="https://www.savaari.com/nellore/car-rental">SAVAARI</a></template>
+</category>
+<category>
+	<pattern>* TAXI</pattern>
+	<template><srai>TAXI</srai></template>
+</category>
+<category>
+	<pattern>TAXI *</pattern>
+	<template><srai>TAXI</srai></template>
+</category>
+<category>
+	<pattern>* TAXI *</pattern>
+	<template><srai>TAXI</srai></template>
+</category>
+<category>
+	<pattern>CAB</pattern>
+	<template>You can book your CAB over here.<br /><a href="https://www.olacabs.com/" target="_blank">OLA</a><br /><a href="https://www.uber.com/in/en/drive/vehicle-solutions/" target="_blank">UBER</a><br /><a target="_blank" href="https://www.savaari.com/nellore/car-rental">SAVAARI</a></template>
+</category>
+<category>
+	<pattern>* CAB</pattern>
+	<template><srai>CAB</srai></template>
+</category>
+<category>
+	<pattern>CAB *</pattern>
+	<template><srai>CAB</srai></template>
+</category>
+<category>
+	<pattern>* CAB *</pattern>
+	<template><srai>CAB</srai></template>
+</category>
+<category>
+	<pattern>BUS</pattern>
+	<template>You can book your BUS Tickets over here.<br /><a href="https://www.redbus.in/?gclid=EAIaIQobChMIkYnlk7qk6gIVwhwrCh06uQfyEAAYASAAEgLe2_D_BwE" target="_blank">RED BUS</a><br /><a target="_blank" href="https://www.abhibus.com/">ABHI BUS</a><br /><a target="_blank" href="https://www.yatra.com/">YATRA</a></template>
+</category>
+<category>
+	<pattern>* BUS</pattern>
+	<template><srai>BUS</srai></template>
+</category>
+<category>
+	<pattern>BUS *</pattern>
+	<template><srai>BUS</srai></template>
+</category>
+<category>
+	<pattern>* BUS *</pattern>
+	<template><srai>BUS</srai></template>
+</category>
+<category>
+	<pattern>TRAIN</pattern>
+	<template>You can book your TRAIN Tickets over here.<br /><a href="https://www.irctc.co.in/nget/train-search" target="_blank">IRCTC</a><br /><a href="https://www.makemytrip.com/railways/" target="_blank">Make My Trip</a><br /><a href="https://paytm.com/train-tickets" target="_blank">Paytm</a></template>
+</category>
+<category>
+	<pattern>* TRAIN</pattern>
+	<template><srai>TRAIN</srai></template>
+</category>
+<category>
+	<pattern>TRAIN *</pattern>
+	<template><srai>TRAIN</srai></template>
+</category>
+<category>
+	<pattern>* TRAIN *</pattern>
+	<template><srai>TRAIN</srai></template>
+</category>
+<category>
+	<pattern>FLIGHT</pattern>
+	<template>You can book your FLIGHT Tickets over here.<br /><a href="https://www.makemytrip.com/flights/" target="_blank">Make My Trip</a><br /><a href="https://www.yatra.com/flights" target="_blank">YATRA</a><br /><a href="https://www.easemytrip.com/flights.html" target="_blank">Ease My Trip</a></template>
+</category>
+<category>
+	<pattern>* FLIGHT</pattern>
+	<template><srai>FLIGHT</srai></template>
+</category>
+<category>
+	<pattern>FLIGHT *</pattern>
+	<template><srai>FLIGHT</srai></template>
+</category>
+<category>
+	<pattern>* FLIGHT *</pattern>
+	<template><srai>FLIGHT</srai></template>
+</category>
+<category>
+	<pattern>PLANE</pattern>
+	<template><srai>FLIGHT</srai></template>
+</category>
+<category>
+	<pattern>* PLANE</pattern>
+	<template><srai>FLIGHT</srai></template>
+</category>
+<category>
+	<pattern>PLANE *</pattern>
+	<template><srai>FLIGHT</srai></template>
+</category>
+<category>
+	<pattern>* PLANE *</pattern>
+	<template><srai>FLIGHT</srai></template>
+</category>
+<category>
+	<pattern>AIRLINE</pattern>
+	<template><srai>FLIGHT</srai></template>
+</category>
+<category>
+	<pattern>* AIRLINE</pattern>
+	<template><srai>FLIGHT</srai></template>
+</category>
+<category>
+	<pattern>AIRLINE *</pattern>
+	<template><srai>FLIGHT</srai></template>
+</category>
+<category>
+	<pattern>* AIRLINE *</pattern>
+	<template><srai>FLIGHT</srai></template>
+</category>
+<category>
+	<pattern>AEROPLANE</pattern>
+	<template><srai>FLIGHT</srai></template>
+</category>
+<category>
+	<pattern>* AEROPLANE</pattern>
+	<template><srai>FLIGHT</srai></template>
+</category>
+<category>
+	<pattern>AEROPLANE *</pattern>
+	<template><srai>FLIGHT</srai></template>
+</category>
+<category>
+	<pattern>* AEROPLANE *</pattern>
+	<template><srai>FLIGHT</srai></template>
+</category>
+<category>
+	<pattern>BIKE</pattern>
+	<template>You can book your BIKE RENTAL over here.<br /><a target="_blank" href="https://www.onnbikes.com/">ONNBIKES</a><br /><a href="https://www.rentrip.in/" target="_blank">RENTRIP</a><br /><a target="_blank" href="https://bikerentalmanager.com/calendar-based-online-booking-reservations-system/">BIKE RENT</a></template>
+</category>
+<category>
+	<pattern>* BIKE</pattern>
+	<template><srai>BIKE</srai></template>
+</category>
+<category>
+	<pattern>BIKE *</pattern>
+	<template><srai>BIKE</srai></template>
+</category>
+<category>
+	<pattern>* BIKE *</pattern>
+	<template><srai>BIKE</srai></template>
+</category>
+<category>
+	<pattern>SCOOTER</pattern>
+	<template><srai>BIKE</srai></template>
+</category>
+<category>
+	<pattern>* SCOOTER</pattern>
+	<template><srai>BIKE</srai></template>
+</category>
+<category>
+	<pattern>SCOOTER *</pattern>
+	<template><srai>BIKE</srai></template>
+</category>
+<category>
+	<pattern>* SCOOTER *</pattern>
+	<template><srai>BIKE</srai></template>
+</category>
+<category>
+	<pattern>SCOOTERS</pattern>
+	<template><srai>BIKE</srai></template>
+</category>
+<category>
+	<pattern>SCOOTERS *</pattern>
+	<template><srai>BIKE</srai></template>
+</category>
+<category>
+	<pattern>* SCOOTERS</pattern>
+	<template><srai>BIKE</srai></template>
+</category>
+<category>
+	<pattern>* SCOOTERS *</pattern>
+	<template><srai>BIKE</srai></template>
+</category>
+<category>
+	<pattern>BIKES</pattern>
+	<template><srai>BIKE</srai></template>
+</category>
+<category>
+	<pattern>* BIKES</pattern>
+	<template><srai>BIKE</srai></template>
+</category>
+<category>
+	<pattern>BIKES *</pattern>
+	<template><srai>BIKE</srai></template>
+</category>
+<category>
+	<pattern>* BIKES *</pattern>
+	<template><srai>BIKE</srai></template>
+</category>
+<category>
+	<pattern>* AEROPLANES *</pattern>
+	<template><srai>FLIGHT</srai></template>
+</category>
+<category>
+	<pattern>AEROPLANES</pattern>
+	<template><srai>FLIGHT</srai></template>
+</category>
+<category>
+	<pattern>* AEROPLANES</pattern>
+	<template><srai>FLIGHT</srai></template>
+</category>
+<category>
+	<pattern>AEROPLANES *</pattern>
+	<template><srai>FLIGHT</srai></template>
+</category>
+<category>
+	<pattern>* AIRLINES *</pattern>
+	<template><srai>FLIGHT</srai></template>
+</category>
+<category>
+	<pattern>* AIRLINES</pattern>
+	<template><srai>FLIGHT</srai></template>
+</category>
+<category>
+	<pattern>AIRLINES *</pattern>
+	<template><srai>FLIGHT</srai></template>
+</category>
+<category>
+	<pattern>AIRLINES</pattern>
+	<template><srai>FLIGHT</srai></template>
+</category>
+<category>
+	<pattern>PLANES</pattern>
+	<template><srai>FLIGHT</srai></template>
+</category>
+<category>
+	<pattern>* PLANES</pattern>
+	<template><srai>FLIGHT</srai></template>
+</category>
+<category>
+	<pattern>PLANES *</pattern>
+	<template><srai>FLIGHT</srai></template>
+</category>
+<category>
+	<pattern>* PLANES *</pattern>
+	<template><srai>FLIGHT</srai></template>
+</category>
+<category>
+	<pattern>FLIGHTS</pattern>
+	<template><srai>FLIGHT</srai></template>
+</category>
+<category>
+	<pattern>* FLIGHTS</pattern>
+	<template><srai>FLIGHT</srai></template>
+</category>
+<category>
+	<pattern>FLIGHTS *</pattern>
+	<template><srai>FLIGHT</srai></template>
+</category>
+<category>
+	<pattern>* FLIGHTS *</pattern>
+	<template><srai>FLIGHT</srai></template>
+</category>
+<category>
+	<pattern>BUSES</pattern>
+	<template><srai>BUS</srai></template>
+</category>
+<category>
+	<pattern>* BUSES</pattern>
+	<template><srai>BUS</srai></template>
+</category>
+<category>
+	<pattern>BUSES *</pattern>
+	<template><srai>BUS</srai></template>
+</category>
+<category>
+	<pattern>* BUSES *</pattern>
+	<template><srai>BUS</srai></template>
+</category>
+<category>
+	<pattern>CABS</pattern>
+	<template><srai>CAB</srai></template>
+</category>
+<category>
+	<pattern>* CABS</pattern>
+	<template><srai>CAB</srai></template>
+</category>
+<category>
+	<pattern>CAB *</pattern>
+	<template><srai>CAB</srai></template>
+</category>
+<category>
+	<pattern>* CABS *</pattern>
+	<template><srai>CAB</srai></template>
+</category>
+<category>
+	<pattern>TAXIES</pattern>
+	<template><srai>TAXI</srai></template>
+</category>
+<category>
+	<pattern>* TAXIES</pattern>
+	<template><srai>TAXI</srai></template>
+</category>
+<category>
+	<pattern>TAXIES *</pattern>
+	<template><srai>TAXI</srai></template>
+</category>
+<category>
+	<pattern>* TAXIES *</pattern>
+	<template><srai>TAXI</srai></template>
+</category>
+<category>
+	<pattern>CARS</pattern>
+	<template><srai>CAR</srai></template>
+</category>
+<category>
+	<pattern>* CARS</pattern>
+	<template><srai>CAR</srai></template>
+</category>
+<category>
+	<pattern>CARS *</pattern>
+	<template><srai>CAR</srai></template>
+</category>
+<category>
+	<pattern>* CARS *</pattern>
+	<template><srai>CAR</srai></template>
+</category>
+<category>
+	<pattern>* DONT LIKE *</pattern>
+	<template>Oh! I can't help you.</template>
+</category>
+<category>
+	<pattern>* DISLIKE *</pattern>
+	<template>Oh! I can't help you.</template>
+</category>
+<category>
+	<pattern>* HATE *</pattern>
+	<template>Oh! I can't help you.</template>
+</category>
+<category>
+	<pattern>ROOM</pattern>
+	<template>You can book your ROOM over here.<br /><a target="_blank" href="https://www.oyorooms.com/">OYO ROOMS</a><br /><a href="https://www.makemytrip.com/hotels/" target="_blank">MAKE MY TRIP</a><br /><a target="_blank" href="https://www.cleartrip.com/hotels">CLEARTRIP</a></template>
+</category>
+<category>
+	<pattern>ROOM *</pattern>
+	<template><srai>ROOM</srai></template>
+</category>
+<category>
+	<pattern>* ROOM</pattern>
+	<template><srai>ROOM</srai></template>
+</category>
+<category>
+	<pattern>* ROOM *</pattern>
+	<template><srai>ROOM</srai></template>
+</category>
+<category>
+	<pattern>HOTEL</pattern>
+	<template><srai>ROOM</srai></template>
+</category>
+<category>
+	<pattern>HOTEL *</pattern>
+	<template><srai>ROOM</srai></template>
+</category>
+<category>
+	<pattern>* HOTEL</pattern>
+	<template><srai>ROOM</srai></template>
+</category>
+<category>
+	<pattern>* HOTEL *</pattern>
+	<template><srai>ROOM</srai></template>
+</category>
+<category>
+	<pattern>ROOMS</pattern>
+	<template><srai>ROOM</srai></template>
+</category>
+<category>
+	<pattern>ROOMS *</pattern>
+	<template><srai>ROOM</srai></template>
+</category>
+<category>
+	<pattern>* ROOMS</pattern>
+	<template><srai>ROOM</srai></template>
+</category>
+<category>
+	<pattern>* ROOMS *</pattern>
+	<template><srai>ROOM</srai></template>
+</category>
+<category>
+	<pattern>HOTELS</pattern>
+	<template><srai>ROOM</srai></template>
+</category>
+<category>
+	<pattern>HOTELS *</pattern>
+	<template><srai>ROOM</srai></template>
+</category>
+<category>
+	<pattern>* HOTELS</pattern>
+	<template><srai>ROOM</srai></template>
+</category>
+<category>
+	<pattern>* HOTELS *</pattern>
+	<template><srai>ROOM</srai></template>
+</category>
+<category>
+	<pattern>VILLA</pattern>
+	<template><srai>ROOM</srai></template>
+</category>
+<category>
+	<pattern>VILLA *</pattern>
+	<template><srai>ROOM</srai></template>
+</category>
+<category>
+	<pattern>* VILLA</pattern>
+	<template><srai>ROOM</srai></template>
+</category>
+<category>
+	<pattern>* VILLA *</pattern>
+	<template><srai>ROOM</srai></template>
+</category>
+<category>
+	<pattern>VILLAS</pattern>
+	<template><srai>ROOM</srai></template>
+</category>
+<category>
+	<pattern>VILLAS *</pattern>
+	<template><srai>ROOM</srai></template>
+</category>
+<category>
+	<pattern>* VILLAS</pattern>
+	<template><srai>ROOM</srai></template>
+</category>
+<category>
+	<pattern>* VILLAS *</pattern>
+	<template><srai>ROOM</srai></template>
+</category>
+<category>
+	<pattern>YOUR NAME</pattern>
+	<template>TRIP ADVISOR</template>
+</category>
+<category>
+	<pattern>* YOUR NAME</pattern>
+	<template>TRIP ADVISOR</template>
+</category>
+<category>
+	<pattern>YOUR NAME *</pattern>
+	<template>TRIP ADVISOR</template>
+</category>
+<category>
+	<pattern>* YOUR NAME *</pattern>
+	<template>TRIP ADVISOR</template>
+</category>
+<category>
+	<pattern>ABOUT YOU</pattern>
+	<template>I am TRIP ADVISOR.I will help you in advising in travelling.</template>
+</category>
+<category>
+	<pattern>* ABOUT YOU</pattern>
+	<template>I am TRIP ADVISOR.I will help you in advising in travelling.</template>
+</category>
+<category>
+	<pattern>ABOUT YOU *</pattern>
+	<template>I am TRIP ADVISOR.I will help you in advising in travelling.</template>
+</category>
+<category>
+	<pattern>* ABOUT YOU *</pattern>
+	<template>I am TRIP ADVISOR.I will help you in advising in travelling.</template>
+</category>
+<category>
+	<pattern>ABOUT YOURSELF</pattern>
+	<template>I am TRIP ADVISOR.I will help you in advising in travelling.</template>
+</category>
+<category>
+	<pattern>* ABOUT YOURSELF</pattern>
+	<template>I am TRIP ADVISOR.I will help you in advising in travelling.</template>
+</category>
+<category>
+	<pattern>ABOUT YOURSELF *</pattern>
+	<template>I am TRIP ADVISOR.I will help you in advising in travelling.</template>
+</category>
+<category>
+	<pattern>* ABOUT YOURSELF *</pattern>
+	<template>I am TRIP ADVISOR.I will help you in advising in travelling.</template>
+</category>
+<category>
+	<pattern>MY NAME</pattern>
+	<template>I don't know.</template>
+</category>
+<category>
+	<pattern>* MY NAME</pattern>
+	<template>I don't know.</template>
+</category>
+<category>
+	<pattern>MY NAME *</pattern>
+	<template>I don't know.</template>
+</category>
+<category>
+	<pattern>MY NAME *</pattern>
+	<template>I don't know.</template>
+</category>
+<category>
+	<pattern>* MY NAME *</pattern>
+	<template>I don't know.</template>
+</category>
+<category>
+	<pattern>VEHICAL</pattern>
+	<template>You can get your transport services here.<br /><a href="https://www.olacabs.com/rentals" target="_blank">OLA</a><br /><a href="https://www.makemytrip.com/" target="_blank">Make My Trip</a><br /><a href="https://www.yatra.com/" target="_blank">YATRA</a><br /><a href="https://www.irctc.co.in/nget/train-search" target="_blank">IRCTC</a></template>
+</category>
+<category>
+	<pattern>VEHICAL *</pattern>
+	<template><srai>VEHICAL</srai></template>
+</category>
+<category>
+	<pattern>* VEHICAL</pattern>
+	<template><srai>VEHICAL</srai></template>
+</category>
+<category>
+	<pattern>* VEHICAL *</pattern>
+	<template><srai>VEHICAL</srai></template>
+</category>
+<category>
+	<pattern>TRANSPORT</pattern>
+	<template><srai>VEHICAL</srai></template>
+</category>
+<category>
+	<pattern>TRANSPORT *</pattern>
+	<template><srai>VEHICAL</srai></template>
+</category>
+<category>
+	<pattern>* TRANSPORT</pattern>
+	<template><srai>VEHICAL</srai></template>
+</category>
+<category>
+	<pattern>* TRANSPORT *</pattern>
+	<template><srai>VEHICAL</srai></template>
+</category>
+<category>
+	<pattern>TRANSPORTS</pattern>
+	<template><srai>VEHICAL</srai></template>
+</category>
+<category>
+	<pattern>* TRANSPORTS</pattern>
+	<template><srai>VEHICAL</srai></template>
+</category>
+<category>
+	<pattern>TRANSPORTS *</pattern>
+	<template><srai>VEHICAL</srai></template>
+</category>
+<category>
+	<pattern>* TRANSPORTS *</pattern>
+	<template><srai>VEHICAL</srai></template>
+</category>
+<category>
+	<pattern>VEHICALS</pattern>
+	<template><srai>VEHICAL</srai></template>
+</category>
+<category>
+	<pattern>VEHICALS *</pattern>
+	<template><srai>VEHICAL</srai></template>
+</category>
+<category>
+	<pattern>* VEHICALS</pattern>
+	<template><srai>VEHICAL</srai></template>
+</category>
+<category>
+	<pattern>* VEHICALS *</pattern>
+	<template><srai>VEHICAL</srai></template>
+</category>
+<category>
+	<pattern>BOARDING</pattern>
+	<template><srai>ROOM</srai></template>
+</category>
+<category>
+	<pattern>BOARDING *</pattern>
+	<template><srai>ROOM</srai></template>
+</category>
+<category>
+	<pattern>* BOARDING</pattern>
+	<template><srai>ROOM</srai></template>
+</category>
+<category>
+	<pattern>* BOARDING *</pattern>
+	<template><srai>ROOM</srai></template>
+</category>
+<category>
+	<pattern>BOARDINGS</pattern>
+	<template><srai>ROOM</srai></template>
+</category>
+<category>
+	<pattern>* BOARDINGS</pattern>
+	<template><srai>ROOM</srai></template>
+</category>
+<category>
+	<pattern>BOARDINGS *</pattern>
+	<template><srai>ROOM</srai></template>
+</category>
+<category>
+	<pattern>* BOARDINGS *</pattern>
+	<template><srai>ROOM</srai></template>
+</category>
+<category>
+	<pattern>OLA</pattern>
+	<template>You can get OLA services from here.<br /><a href="https://www.olacabs.com/rentals" target="_blank">OLA</a></template>
+</category>
+<category>
+	<pattern>OLA *</pattern>
+	<template>You can get OLA services from here.<br /><a href="https://www.olacabs.com/rentals" target="_blank">OLA</a></template>
+</category>
+<category>
+	<pattern>* OLA</pattern>
+	<template>You can get OLA services from here.<br /><a href="https://www.olacabs.com/rentals" target="_blank">OLA</a></template>
+</category>
+<category>
+	<pattern>* OLA *</pattern>
+	<template>You can get OLA services from here.<br /><a href="https://www.olacabs.com/rentals" target="_blank">OLA</a></template>
+</category>
+<category>
+	<pattern>UBER</pattern>
+	<template>You can get UBER services from here.<br /><a target="_blank" href="https://www.uber.com/in/en/drive/vehicle-solutions/">OLA</a></template>
+</category>
+<category>
+	<pattern>UBER *</pattern>
+	<template>You can get UBER services from here.<br /><a target="_blank" href="https://www.uber.com/in/en/drive/vehicle-solutions/">OLA</a></template>
+</category>
+<category>
+	<pattern>* UBER</pattern>
+	<template>You can get UBER services from here.<br /><a target="_blank" href="https://www.uber.com/in/en/drive/vehicle-solutions/">OLA</a></template>
+</category>
+<category>
+	<pattern>* UBER *</pattern>
+	<template>You can get UBER services from here.<br /><a target="_blank" href="https://www.uber.com/in/en/drive/vehicle-solutions/">OLA</a></template>
+</category>
+<category>
+	<pattern>MAKE MY TRIP</pattern>
+	<template>You can get MAKE MY TRIP services from here.<br /><a target="_blank" href="https://www.makemytrip.com/">Make My Trip</a></template>
+</category>
+<category>
+	<pattern>MAKE MY TRIP *</pattern>
+	<template>You can get MAKE MY TRIP services from here.<br /><a target="_blank" href="https://www.makemytrip.com/">Make My Trip</a></template>
+</category>
+<category>
+	<pattern>* MAKE MY TRIP</pattern>
+	<template>You can get MAKE MY TRIP services from here.<br /><a target="_blank" href="https://www.makemytrip.com/">Make My Trip</a></template>
+</category>
+<category>
+	<pattern>* MAKE MY TRIP *</pattern>
+	<template>You can get MAKE MY TRIP services from here.<br /><a target="_blank" href="https://www.makemytrip.com/">Make My Trip</a></template>
+</category>
+<category>
+	<pattern>RED BUS</pattern>
+	<template>You can get RED BUS services from here.<br /><a target="_blank" href="https://www.redbus.in/">RED BUS</a></template>
+</category>
+<category>
+	<pattern>RED BUS *</pattern>
+	<template>You can get RED BUS services from here.<br /><a target="_blank" href="https://www.redbus.in/">RED BUS</a></template>
+</category>
+<category>
+	<pattern>* RED BUS</pattern>
+	<template>You can get RED BUS services from here.<br /><a target="_blank" href="https://www.redbus.in/">RED BUS</a></template>
+</category>
+<category>
+	<pattern>* RED BUS *</pattern>
+	<template>You can get RED BUS services from here.<br /><a target="_blank" href="https://www.redbus.in/">RED BUS</a></template>
+</category>
+<category>
+	<pattern>ABHI BUS</pattern>
+	<template>You can get ABHI BUS services from here.<br /><a target="_blank" href="https://www.abhibus.com/">ABHI BUS</a></template>
+</category>
+<category>
+	<pattern>ABHI BUS *</pattern>
+	<template>You can get ABHI BUS services from here.<br /><a target="_blank" href="https://www.abhibus.com/">ABHI BUS</a></template>
+</category>
+<category>
+	<pattern>* ABHI BUS</pattern>
+	<template>You can get ABHI BUS services from here.<br /><a target="_blank" href="https://www.abhibus.com/">ABHI BUS</a></template>
+</category>
+<category>
+	<pattern>* ABHI BUS *</pattern>
+	<template>You can get ABHI BUS services from here.<br /><a target="_blank" href="https://www.abhibus.com/">ABHI BUS</a></template>
+</category>
+<category>
+	<pattern>IRCTC</pattern>
+	<template>You can get IRCTC services from here.<br /><a target="_blank" href="https://www.irctc.co.in/nget/train-search">IRCTC</a></template>
+</category>
+<category>
+	<pattern>IRCTC *</pattern>
+	<template>You can get IRCTC services from here.<br /><a target="_blank" href="https://www.irctc.co.in/nget/train-search">IRCTC</a></template>
+</category>
+<category>
+	<pattern>* IRCTC</pattern>
+	<template>You can get IRCTC services from here.<br /><a target="_blank" href="https://www.irctc.co.in/nget/train-search">IRCTC</a></template>
+</category>
+<category>
+	<pattern>* IRCTC *</pattern>
+	<template>You can get IRCTC services from here.<br /><a target="_blank" href="https://www.irctc.co.in/nget/train-search">IRCTC</a></template>
+</category>
+<category>
+	<pattern>PAYTM</pattern>
+	<template>You can get PAYTM services from here.<br /><a target="_blank" href="https://paytm.com/">PAYTM</a></template>
+</category>
+<category>
+	<pattern>PAYTM *</pattern>
+	<template>You can get PAYTM services from here.<br /><a target="_blank" href="https://paytm.com/">PAYTM</a></template>
+</category>
+<category>
+	<pattern>* PAYTM</pattern>
+	<template>You can get PAYTM services from here.<br /><a target="_blank" href="https://paytm.com/">PAYTM</a></template>
+</category>
+<category>
+	<pattern>* PAYTM *</pattern>
+	<template>You can get PAYTM services from here.<br /><a target="_blank" href="https://paytm.com/">PAYTM</a></template>
+</category>
+<category>
+	<pattern>SAVAARI</pattern>
+	<template>You can get SAVAARI services from here.<br /><a target="_blank" href="https://www.savaari.com/nellore/car-rental">SAVAARI</a></template>
+</category>
+<category>
+	<pattern>SAVAARI *</pattern>
+	<template>You can get SAVAARI services from here.<br /><a target="_blank" href="https://www.savaari.com/nellore/car-rental">SAVAARI</a></template>
+</category>
+<category>
+	<pattern>* SAVAARI</pattern>
+	<template>You can get SAVAARI services from here.<br /><a target="_blank" href="https://www.savaari.com/nellore/car-rental">SAVAARI</a></template>
+</category>
+<category>
+	<pattern>* SAVAARI *</pattern>
+	<template>You can get SAVAARI services from here.<br /><a target="_blank" href="https://www.savaari.com/nellore/car-rental">SAVAARI</a></template>
+</category>
+<category>
+	<pattern>YATRA</pattern>
+	<template>You can get YATRA services from here.<br /><a target="_blank" href="https://www.yatra.com/">YATRA</a></template>
+</category>
+<category>
+	<pattern>YATRA *</pattern>
+	<template>You can get YATRA services from here.<br /><a target="_blank" href="https://www.yatra.com/">YATRA</a></template>
+</category>
+<category>
+	<pattern>* YATRA</pattern>
+	<template>You can get YATRA services from here.<br /><a target="_blank" href="https://www.yatra.com/">YATRA</a></template>
+</category>
+<category>
+	<pattern>* YATRA *</pattern>
+	<template>You can get YATRA services from here.<br /><a target="_blank" href="https://www.yatra.com/">YATRA</a></template>
+</category>
+<category>
+	<pattern>EASE MY TRIP</pattern>
+	<template>You can get EASE MY TRIP services from here.<br /><a target="_blank" href="https://www.easemytrip.com/">EASE MY TRIP</a></template>
+</category>
+<category>
+	<pattern>EASE MY TRIP *</pattern>
+	<template>You can get EASE MY TRIP services from here.<br /><a target="_blank" href="https://www.easemytrip.com/">EASE MY TRIP</a></template>
+</category>
+<category>
+	<pattern>* EASE MY TRIP</pattern>
+	<template>You can get EASE MY TRIP services from here.<br /><a target="_blank" href="https://www.easemytrip.com/">EASE MY TRIP</a></template>
+</category>
+<category>
+	<pattern>* EASE MY TRIP *</pattern>
+	<template>You can get EASE MY TRIP services from here.<br /><a target="_blank" href="https://www.easemytrip.com/">EASE MY TRIP</a></template>
+</category>
+<category>
+	<pattern>YOUR DEVELOPER</pattern>
+	<template>I am developed by YADLAPALLI VENKATA RAJ KUMAR(YVRK).</template>
+</category>
+<category>
+	<pattern>YOUR DEVELOPER *</pattern>
+	<template>I am developed by YADLAPALLI VENKATA RAJ KUMAR(YVRK).</template>
+</category>
+<category>
+	<pattern>* YOUR DEVELOPER</pattern>
+	<template>I am developed by YADLAPALLI VENKATA RAJ KUMAR(YVRK).</template>
+</category>
+<category>
+	<pattern>* YOUR DEVELOPER *</pattern>
+	<template>I am developed by YADLAPALLI VENKATA RAJ KUMAR(YVRK).</template>
+</category>
+<category>
+	<pattern>YOU ARE DEVELOPED BY</pattern>
+	<template>I am developed by YADLAPALLI VENKATA RAJ KUMAR(YVRK).</template>
+</category>
+<category>
+	<pattern>YOU ARE DEVELOPED BY *</pattern>
+	<template>I am developed by YADLAPALLI VENKATA RAJ KUMAR(YVRK).</template>
+</category>
+<category>
+	<pattern>* YOU ARE DEVELOPED BY</pattern>
+	<template>I am developed by YADLAPALLI VENKATA RAJ KUMAR(YVRK).</template>
+</category>
+<category>
+	<pattern>* YOU ARE DEVELOPED BY *</pattern>
+	<template>I am developed by YADLAPALLI VENKATA RAJ KUMAR(YVRK).</template>
+</category>
+<category>
+	<pattern>* BOOK TICKET *</pattern>
+	<template><srai>VEHICAL</srai></template>
+</category>
+<category>
+	<pattern>* BOOK TICKET</pattern>
+	<template><srai>VEHICAL</srai></template>
+</category>
+<category>
+	<pattern>BOOK TICKET *</pattern>
+	<template><srai>VEHICAL</srai></template>
+</category>
+<category>
+	<pattern>BOOK TICKET</pattern>
+	<template><srai>VEHICAL</srai></template>
+</category>
+<category>
+	<pattern>* BOOK TICKETS *</pattern>
+	<template><srai>VEHICAL</srai></template>
+</category>
+<category>
+	<pattern>* BOOK TICKETS</pattern>
+	<template><srai>VEHICAL</srai></template>
+</category>
+<category>
+	<pattern>BOOK TICKETS *</pattern>
+	<template><srai>VEHICAL</srai></template>
+</category>
+<category>
+	<pattern>BOOK TICKETS</pattern>
+	<template><srai>VEHICAL</srai></template>
+</category>
+<category>
+	<pattern>* BOOK * TICKET *</pattern>
+	<template><srai>VEHICAL</srai></template>
+</category>
+<category>
+	<pattern>* BOOK * TICKET </pattern>
+	<template><srai>VEHICAL</srai></template>
+</category>
+<category>
+	<pattern>BOOK * TICKET *</pattern>
+	<template><srai>VEHICAL</srai></template>
+</category>
+<category>
+	<pattern> BOOK * TICKET </pattern>
+	<template><srai>VEHICAL</srai></template>
+</category>
+<category>
+	<pattern>* BOOK * TICKETS *</pattern>
+	<template><srai>VEHICAL</srai></template>
+</category>
+<category>
+	<pattern>* BOOK * TICKETS</pattern>
+	<template><srai>VEHICAL</srai></template>
+</category>
+<category>
+	<pattern> BOOK * TICKETS *</pattern>
+	<template><srai>VEHICAL</srai></template>
+</category>
+<category>
+	<pattern> BOOK * TICKETS </pattern>
+	<template><srai>VEHICAL</srai></template>
+</category>
+<category>
+	<pattern>TRAVEL</pattern>
+	<template><srai>VEHICAL</srai></template>
+</category>
+<category>
+	<pattern>* TRAVEL</pattern>
+	<template><srai>VEHICAL</srai></template>
+</category>
+<category>
+	<pattern>TRAVEL *</pattern>
+	<template><srai>VEHICAL</srai></template>
+</category>
+<category>
+	<pattern>* TRAVEL *</pattern>
+	<template><srai>VEHICAL</srai></template>
+</category>
+<category>
+	<pattern>TRAVELS</pattern>
+	<template><srai>VEHICAL</srai></template>
+</category>
+<category>
+	<pattern>TRAVELS *</pattern>
+	<template><srai>VEHICAL</srai></template>
+</category>
+<category>
+	<pattern>* TRAVELS </pattern>
+	<template><srai>VEHICAL</srai></template>
+</category>
+<category>
+	<pattern>* TRAVELS *</pattern>
+	<template><srai>VEHICAL</srai></template>
+</category>
+<category>
+	<pattern>TRAVELLING</pattern>
+	<template><srai>VEHICAL</srai></template>
+</category>
+<category>
+	<pattern>TRAVELLING *</pattern>
+	<template><srai>VEHICAL</srai></template>
+</category>
+<category>
+	<pattern>* TRAVELLING </pattern>
+	<template><srai>VEHICAL</srai></template>
+</category>
+<category>
+	<pattern>* TRAVELLING *</pattern>
+	<template><srai>VEHICAL</srai></template>
+</category>
+<category>
+	<pattern>TRIP</pattern>
+	<template><srai>VEHICAL</srai></template>
+</category>
+<category>
+	<pattern>TRIP *</pattern>
+	<template><srai>VEHICAL</srai></template>
+</category>
+<category>
+	<pattern>* TRIP</pattern>
+	<template><srai>VEHICAL</srai></template>
+</category>
+<category>
+	<pattern>* TRIP *</pattern>
+	<template><srai>VEHICAL</srai></template>
+</category>
+<category>
+	<pattern>TRIPS</pattern>
+	<template><srai>VEHICAL</srai></template>
+</category>
+<category>
+	<pattern>* TRIPS </pattern>
+	<template><srai>VEHICAL</srai></template>
+</category>
+<category>
+	<pattern>TRIPS *</pattern>
+	<template><srai>VEHICAL</srai></template>
+</category>
+<category>
+	<pattern>* TRIPS *</pattern>
+	<template><srai>VEHICAL</srai></template>
+</category>
+<category>
+	<pattern>WHO IS TRIP ADVISOR</pattern>
+	<template>I am TRIP ADVISOR</template>
+</category>
+</aiml>
