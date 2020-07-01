@@ -1026,4 +1026,180 @@
 	<pattern>WHO IS TRIP ADVISOR</pattern>
 	<template>I am TRIP ADVISOR</template>
 </category>
+<category>
+	<pattern>GOOD MORNING</pattern>
+	<template>Hey! GOOD MORNING</template>
+</category>
+<category>
+	<pattern>* GOOD MORNING</pattern>
+	<template>Hey! GOOD MORNING</template>
+</category>
+<category>
+	<pattern>GOOD MORNING *</pattern>
+	<template>Hey! GOOD MORNING</template>
+</category>
+<category>
+	<pattern>* GOOD MORNING *</pattern>
+	<template>Hey! GOOD MORNING</template>
+</category>
+<category>
+	<pattern>GOOD AFTERNOON</pattern>
+	<template>Hey! GOOD AFTERNOON</template>
+</category>
+<category>
+	<pattern>* GOOD AFTERNOON</pattern>
+	<template>Hey! GOOD AFTERNOON</template>
+</category>
+<category>
+	<pattern>GOOD AFTERNOON *</pattern>
+	<template>Hey! GOOD AFTERNOON</template>
+</category>
+<category>
+	<pattern>* GOOD AFTERNOON *</pattern>
+	<template>Hey! GOOD AFTERNOON</template>
+</category>
+<category>
+	<pattern>GOOD EVENING</pattern>
+	<template>Hey! GOOD EVENING</template>
+</category>
+<category>
+	<pattern>* GOOD EVENING</pattern>
+	<template>Hey! GOOD EVENING</template>
+</category>
+<category>
+	<pattern>GOOD EVENING *</pattern>
+	<template>Hey! GOOD EVENING</template>
+</category>
+<category>
+	<pattern>* GOOD EVENING *</pattern>
+	<template>Hey! GOOD EVENING</template>
+</category>
+<category>
+	<pattern>GOOD NIGHT</pattern>
+	<template>Hey! GOOD NIGHT</template>
+</category>
+<category>
+	<pattern>* GOOD NIGHT</pattern>
+	<template>Hey! GOOD NIGHT</template>
+</category>
+<category>
+	<pattern>GOOD NIGHT *</pattern>
+	<template>Hey! GOOD NIGHT</template>
+</category>
+<category>
+	<pattern>* GOOD NIGHT *</pattern>
+	<template>Hey! GOOD NIGHT</template>
+</category>
+<category>
+	<pattern>NICE * YOU</pattern>
+	<template>Thank you.</template>
+</category>
+<category>
+	<pattern>* NICE * YOU</pattern>
+	<template>Thank you.</template>
+</category>
+<category>
+	<pattern>NICE * YOU *</pattern>
+	<template>Thank you.</template>
+</category>
+<category>
+	<pattern>* NICE * YOU *</pattern>
+	<template>Thank you.</template>
+</category>
+<category>
+	<pattern>GOOD * YOU</pattern>
+	<template>Thank you.</template>
+</category>
+<category>
+	<pattern>* GOOD * YOU</pattern>
+	<template>Thank you.</template>
+</category>
+<category>
+	<pattern>GOOD * YOU *</pattern>
+	<template>Thank you.</template>
+</category>
+<category>
+	<pattern>* GOOD * YOU *</pattern>
+	<template>Thank you.</template>
+</category>
+<category>
+	<pattern>BETTER * YOU</pattern>
+	<template>Thank you.</template>
+</category>
+<category>
+	<pattern>* BETTER * YOU</pattern>
+	<template>Thank you.</template>
+</category>
+<category>
+	<pattern>BETTER * YOU *</pattern>
+	<template>Thank you.</template>
+</category>
+<category>
+	<pattern>* BETTER * YOU *</pattern>
+	<template>Thank you.</template>
+</category>
+<category>
+	<pattern>BEST * YOU</pattern>
+	<template>Thank you.</template>
+</category>
+<category>
+	<pattern>* BEST * YOU</pattern>
+	<template>Thank you.</template>
+</category>
+<category>
+	<pattern>BEST * YOU *</pattern>
+	<template>Thank you.</template>
+</category>
+<category>
+	<pattern>* BEST * YOU *</pattern>
+	<template>Thank you.</template>
+</category>
+<category>
+	<pattern>YOU * SMART</pattern>
+	<template>Thank you.</template>
+</category>
+<category>
+	<pattern>* YOU * SMART</pattern>
+	<template>Thank you.</template>
+</category>
+<category>
+	<pattern>YOU * SMART *</pattern>
+	<template>Thank you.</template>
+</category>
+<category>
+	<pattern>* YOU * SMART *</pattern>
+	<template>Thank you.</template>
+</category>
+<category>
+	<pattern>YOU * GENIUS</pattern>
+	<template>Thank you.</template>
+</category>
+<category>
+	<pattern>* YOU * GENIUS</pattern>
+	<template>Thank you.</template>
+</category>
+<category>
+	<pattern>YOU * GENIUS *</pattern>
+	<template>Thank you.</template>
+</category>
+<category>
+	<pattern>* YOU * GENIUS *</pattern>
+	<template>Thank you.</template>
+</category>
+<category>
+	<pattern>YOU DONT KNOW *</pattern>
+	<template>Sorry. I am still learning.But, I can advise you in travelling.</template>
+</category>
+<category>
+	<pattern>* YOU DONT KNOW *</pattern>
+	<template>Sorry. I am still learning.But, I can advise you in travelling.</template>
+</category>
+<category>
+	<pattern>YOU CANT *</pattern>
+	<template>Sorry. I am still learning.But, I can advise you in travelling.</template>
+</category>
+<category>
+	<pattern>* YOU CANT *</pattern>
+	<template>Sorry. I am still learning.But, I can advise you in travelling.</template>
+</category>
 </aiml>
